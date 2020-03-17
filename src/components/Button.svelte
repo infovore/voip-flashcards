@@ -23,7 +23,13 @@ button {
   margin: 0.5rem;
   font-size: 2rem;
   background: #f0f0f0;
-  border-radius: 4px;
+  border-radius: 4tpx;
+}
+@media (max-width: 600px) {
+  button {
+    display: block !important;
+    width: 100%;
+  }
 }
 
 button:hover, button:active {
