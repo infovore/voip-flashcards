@@ -5,7 +5,7 @@
     "email": "tom@infovore.org",
     "url": "https://tomarmitage.com"
   },
-  "version": "0.3.0",
+  "version": "0.4.0",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",

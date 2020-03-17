@@ -4,11 +4,18 @@ Because sometimes people can't hear you. Hat tip to Alice Taylor for the origina
 
 ## Suggesting content
 
-Add it to `data/messages.json`; make a pull request; I'll probably accept. Or: run your own version of the repo! It deploys nicely to Netlify.
+Add it to `data/voipcard.json`: you can see how internationalisation works. Emoji with skin-tone variables should be in `skinEmoji`; generic emoji that are the same in all territories can be children of `emoji`.
+
+Then, make a pull request; I'll probably accept. Or: run your own version of the repo! It deploys nicely to Netlify.
 
 ## Status
 
-Highly version 0.3. Dumb as a sack of hammers: limited emoji, all skin tones are yellow.
+Moderately passable version 0.4.0. Options menu now lets you:
+
+* pick language
+* choose skin tone
+* toggle mirroring
+
 
 ## Development
 
