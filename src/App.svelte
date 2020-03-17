@@ -19,6 +19,9 @@
     <Button {...message} />
     {/each}
   </div>
+  <footer>
+    Made by <a href="https://tomarmitage.com">Tom Armitage</a> (<a href="https://twitter.com/tom_armitage">@tom_armitage</a>). It's <a href="https://github.com/infovore/voip-flashcards">on Github</a>.
+  </footer>
   {/if}
 </main>
 
@@ -31,5 +34,11 @@ h1 {
 }
 #buttons {
   margin: 2rem 0;
+}
+
+footer {
+  font-size: 0.85rem;
+  border-top: 1px solid #ccc;
+  padding-top: 0.5rem;
 }
 </style>
