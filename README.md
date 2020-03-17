@@ -4,7 +4,7 @@ Because sometimes people can't hear you. Hat tip to Alice Taylor for the origina
 
 ## Suggesting content
 
-Stick it in `data/messages.json`.
+Add it to `data/messages.json`; make a pull request; I'll probably accept. Or: run your own version of the repo! It deploys nicely to Netlify.
 
 ## Status
 
