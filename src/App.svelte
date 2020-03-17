@@ -5,6 +5,9 @@
   import Button from "./components/Button.svelte";
   import Flash from "./components/Flash.svelte";
   import MirrorToggle from "./components/MirrorToggle.svelte";
+
+  const selectedLang = "en";
+  const selectedSkin = "0";
 </script>
 
 <main>
@@ -16,8 +19,11 @@
     <h1>VOIP Flashcards</h1>
     <p>Designed for mobile. Choose mirroring or not. Tap to pick a message. Tap to clear. Hold up to your video conference.</p>
     <p class='small'>Made by <a href="https://tomarmitage.com">Tom Armitage</a> (<a href="https://twitter.com/tom_armitage">@tom_armitage</a>). It's <a href="https://github.com/infovore/voip-flashcards">on Github</a>. (Like it? <a class='tipjar' href="https://monzo.me/thomasarmitage/3.00?d=Thanks%20for%20VOIPcards!">Buy me a coffee!</a>)</p>
-    {#each messageData as message}
+    {#each messageData.text[selectedLang] as message}
     <Button {...message} />
+    {/each}
+    {#each messageData.emoji[selectedSkin] as message}
+    <Button {...message} isEmoji={true} />
     {/each}
   </div>
   <footer>

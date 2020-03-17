@@ -1,36 +1,35 @@
-[
- {"label": "Thanks!"},
- {"label": "You're on mute."},
- {"label": "Everyone is talking."},
- {"label": "One at a time."},
- {"label": "I'd like to speak."},
- {"label": "Someone else would like to speak."},
- {"label": "You have been talking a long time."},
- {"label": "Can you say that again?"},
- {"label": "Can you speak up?"},
- {"label": "Can you speak slower?"},
- {"label": "You are cutting out a lot."},
- {"label": "Hang on, someone at the door."},
- {"label": "Hang on, I need to step away."},
- {"label": "Hang on, I need to mute."},
- {"label": "Tea break!"},
- {"label": "Toilet break!"},
- {"label": "👍",
-  "isEmoji": true},
- {"label": "👎",
-  "isEmoji": true},
- {"label": "👋",
-  "isEmoji": true},
- {"label": "🙌",
-  "isEmoji": true},
- {"label": "👌",
-  "isEmoji": true},
- {"label": "💯",
-  "isEmoji": true},
- {"label": "❤️",
-  "isEmoji": true},
- {"label": "☕️",
-  "isEmoji": true},
-  {"label": "🚽",
-  "isEmoji": true}
-]
+{
+  "text": {
+    "en": [
+      {"label": "Thanks!"},
+      {"label": "You're on mute."},
+      {"label": "Everyone is talking."},
+      {"label": "One at a time."},
+      {"label": "I'd like to speak."},
+      {"label": "Someone else would like to speak."},
+      {"label": "You have been talking a long time."},
+      {"label": "Can you say that again?"},
+      {"label": "Can you speak up?"},
+      {"label": "Can you speak slower?"},
+      {"label": "You are cutting out a lot."},
+      {"label": "Hang on, someone at the door."},
+      {"label": "Hang on, I need to step away."},
+      {"label": "Hang on, I need to mute."},
+      {"label": "Tea break!"},
+      {"label": "Toilet break!"}
+    ]
+  },
+  "emoji": {
+    "0": [
+      {"label": "👍"},
+      {"label": "👎"},
+      {"label": "👋"},
+      {"label": "🙌"},
+      {"label": "👌"},
+      {"label": "💯"},
+      {"label": "❤️"},
+      {"label": "☕️"},
+      {"label": "🚽"}
+    ]
+  }
+}
