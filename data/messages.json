@@ -10,6 +10,11 @@
  {"label": "Can you speak up?"},
  {"label": "Can you speak slower?"},
  {"label": "You are cutting out a lot."},
+ {"label": "Hang on, someone at the door."},
+ {"label": "Hang on, I need to step away."},
+ {"label": "Hang on, I need to mute."},
+ {"label": "Tea break!"},
+ {"label": "Toilet break!"},
  {"label": "👍",
   "isEmoji": true},
  {"label": "👎",
@@ -23,5 +28,9 @@
  {"label": "💯",
   "isEmoji": true},
  {"label": "❤️",
+  "isEmoji": true},
+ {"label": "☕️",
+  "isEmoji": true},
+  {"label": "🚽",
   "isEmoji": true}
 ]
