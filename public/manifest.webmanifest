@@ -1,0 +1,15 @@
+{
+  "background_color": "white",
+  "description": "Flashcards to wave at people on voip",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "name": "VOIP Flashcards",
+  "short_name": "Flashcards",
+  "start_url": "/"
+}

@@ -8,11 +8,21 @@
 
 	<link rel='icon' type='image/png' href='/favicon.png'>
 	<link rel='stylesheet' href='/global.css'>
-	<link rel='stylesheet' href='/build/bundle.css'>
+  <link rel='stylesheet' href='/build/bundle.css'>
+  <link rel="manifest" href="/manifest.webmanifest">
 
 	<script defer src='/build/bundle.js'></script>
 </head>
 
 <body>
+
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('/sw.js')
+        .then(function () { /*console.log("Service Worker Registered"); */});
+    }
+  </script>
 </body>
 </html>
