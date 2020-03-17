@@ -8,7 +8,7 @@ Stick it in `data/messages.json`.
 
 ## Status
 
-Highly version 0.2. Dumb as a sack of hammers: limited emoji, all skin tones are yellow.
+Highly version 0.3. Dumb as a sack of hammers: limited emoji, all skin tones are yellow.
 
 ## Development
 
