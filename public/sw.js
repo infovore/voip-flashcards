@@ -10,6 +10,10 @@ addEventListener('fetch',  fetchEvent => {
   if (request.method !== 'GET') {
     return;
   }
+
+  if(!(request.url.indexOf('http') === 0)){
+    //skip request
+  }
   fetchEvent.respondWith(async function() {
     const responseFromFetch = fetch(request);
     fetchEvent.waitUntil(async function() {
