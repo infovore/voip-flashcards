@@ -1,30 +1,35 @@
 <script>
-	export let name;
+  import { flashMessage} from "./stores.js";
+  import Button from "./components/Button.svelte";
+  import Flash from "./components/Flash.svelte";
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+  {#if $flashMessage}
+  <Flash />
+  {:else}
+  <div id="buttons">
+    <Button label="You're on mute" />
+    <Button label="Everyone is talking." />
+    <Button label="One at a time." />
+    <Button label="I'd like to speak." />
+    <Button label="Someone else would like to speak." />
+    <Button label="You have been talking a long time." />
+    <Button label="👍" />
+    <Button label="👎" />
+    <Button label="👋" />
+    <Button label="🙌" />
+    <Button label="👏" />
+    <Button label="👌" />
+  </div>
+  {/if}
 </main>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
+main {
+  height: 100%;
+}
+#buttons {
+  margin: 2rem 0;
+}
 </style>
