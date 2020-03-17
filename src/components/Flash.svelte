@@ -1,6 +1,6 @@
 
 <script>
-  import { flashMessage, mirror} from "../stores.js";
+  import { flashMessage, config } from "../stores.js";
 
   function clearFlash() {
     let newMessage = {};
@@ -8,7 +8,7 @@
   }
 </script>
 
-<div class="outer {$mirror ? 'mirror' : ''}" on:click={clearFlash}>
+<div class="outer {$config.mirror ? 'mirror' : ''}" on:click={clearFlash}>
   {#if $flashMessage}
   <div class="inner {$flashMessage.isEmoji ? "isemoji" : ""}">
   {$flashMessage.label}

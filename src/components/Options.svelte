@@ -1,15 +1,17 @@
 
 <script>
-  import { mirror} from "../stores.js";
+  import { config } from "../stores.js";
 
   function handleClick() {
-    let newstate = !$mirror;
-    mirror.update(m => newstate);
+    let newMirror = !$config.mirror;
+    let newConfig = Object.assign({}, $config);
+    newConfig.mirror = newMirror;
+    config.update(m => newConfig);
   }
 </script>
 
 <button on:click={handleClick}>
-{#if $mirror}
+{#if $config.mirror}
 Text will be mirrored!
 {:else}
 Text will not be mirrored
@@ -20,7 +22,6 @@ Text will not be mirrored
 button {
   padding: 1rem;
   border: 1px solid #888;
-  display: inline-block;
   margin: 0.5rem;
   font-size: 1rem;
   font-weight: bold;
