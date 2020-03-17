@@ -1,0 +1,18 @@
+[
+ {"label": "You're on mute."},
+ {"label": "Everyone is talking."},
+ {"label": "One at a time."},
+ {"label": "I'd like to speak."},
+ {"label": "Someone else would like to speak."},
+ {"label": "You have been talking a long time."},
+ {"label": "👍",
+  "isEmoji": true},
+ {"label": "👎",
+  "isEmoji": true},
+ {"label": "👋",
+  "isEmoji": true},
+ {"label": "🙌",
+  "isEmoji": true},
+ {"label": "👌",
+  "isEmoji": true}
+]

@@ -1,7 +1,10 @@
 <script>
+  import messageData from "../data/messages.json";
   import { flashMessage} from "./stores.js";
   import Button from "./components/Button.svelte";
   import Flash from "./components/Flash.svelte";
+
+  console.log(messageData);
 </script>
 
 <main>
@@ -12,18 +15,9 @@
     <h1>VOIP Flashcards</h1>
     <p>Tap to pick a message. Tap to clear. Hold up to your video conference.</p>
     <p class='small'>Made by <a href="https://tomarmitage.com">Tom Armitage</a> (tom@infovore.org)</p>
-    <Button label="You're on mute" />
-    <Button label="Everyone is talking." />
-    <Button label="One at a time." />
-    <Button label="I'd like to speak." />
-    <Button label="Someone else would like to speak." />
-    <Button label="You have been talking a long time." />
-    <Button isEmoji={true} label="👍" />
-    <Button isEmoji={true} label="👎" />
-    <Button isEmoji={true} label="👋" />
-    <Button isEmoji={true} label="🙌" />
-    <Button isEmoji={true} label="👏" />
-    <Button isEmoji={true} label="👌" />
+    {#each messageData as message}
+    <Button {...message} />
+    {/each}
   </div>
   {/if}
 </main>
