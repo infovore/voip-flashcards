@@ -5,8 +5,6 @@
   import Button from "./components/Button.svelte";
   import Flash from "./components/Flash.svelte";
   import MirrorToggle from "./components/MirrorToggle.svelte";
-
-  console.log(messageData);
 </script>
 
 <main>
