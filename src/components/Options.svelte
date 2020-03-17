@@ -42,6 +42,7 @@ Options
 
 {#if optionsVisible}
 <div class='optionspanel' use:clickOutside on:click_outside={handleClickOutside}>
+  <button class='closeoptions' on:click={handleClickOutside}>close</button>
   <h2>Configuration Options</h2>
   <h3>Mirror Text?</h3>
   <button on:click={toggleMirror}>
@@ -91,6 +92,16 @@ button.options {
   margin: 0.5rem;
 }
 
+button.closeoptions {
+  float: right;
+  display: block;
+  margin: -0.5rem -0.5rem 0.5rem 0.5rem;
+  font-style: italic;
+  font-weight: normal;
+  padding: 0.3rem;
+}
+
+
 button:hover, button:active {
   cursor: pointer;
 }
@@ -105,9 +116,15 @@ button:hover, button:active, button.selected {
   border: 1px solid #444;
   border-radius: 4px;
   background: #eee;
-  margin: 4rem 0 0 4rem;
   padding: 2rem;
-  width: 50%;
   box-shadow: 4px 4px 4px #888;
+  width: 80%;
+}
+
+@media (min-width: 601px) {
+  .optionspanel {
+    width: 50%;
+    margin: 4rem 0 0 4rem;
+  }
 }
 </style>
