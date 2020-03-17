@@ -1,17 +1,26 @@
 
 <script>
+  import { clickOutside } from '../clickOutside.js';
+  import { config } from "../stores.js";
+  import appData from "../../data/voipcards.json";
+
   let optionsVisible = false;
   let tones = ["👋", "👋🏻", "👋🏼", "👋🏽", "👋🏾", "👋🏿"];
-  import { config } from "../stores.js";
+
 
   function handleToggle() {
     optionsVisible = !optionsVisible;
   }
 
   function handleTone(i) {
-    // console.log(event);
     let newConfig = Object.assign({}, $config);
     newConfig.skinTone = i.toString();
+    config.update(m => newConfig);
+  }
+
+  function handleLanguage(event) {
+    let newConfig = Object.assign({}, $config);
+    newConfig.language = event.target.value;
     config.update(m => newConfig);
   }
 
@@ -21,6 +30,10 @@
     newConfig.mirror = newMirror;
     config.update(m => newConfig);
   }
+
+  function handleClickOutside() {
+    optionsVisible = false;
+  }
 </script>
 
 <button class='options {optionsVisible ? "selected" : ""}' on:click={handleToggle}>
@@ -28,7 +41,7 @@ Options
 </button>
 
 {#if optionsVisible}
-<div class='optionspanel'>
+<div class='optionspanel' use:clickOutside on:click_outside={handleClickOutside}>
   <h2>Configuration Options</h2>
   <h3>Mirror Text?</h3>
   <button on:click={toggleMirror}>
@@ -45,6 +58,14 @@ Options
   {/each}
 
   <h3>Language</h3>
+
+  <select value={$config.language} on:change="{event => (handleLanguage(event))}">
+		{#each appData.languages as language}
+			<option value={language.shortcode}>
+				{language.name}
+			</option>
+		{/each}
+	</select>
 </div>
 {/if}
 

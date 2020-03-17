@@ -1,4 +1,12 @@
 {
+  "languages": [
+    {"shortcode": "en",
+     "name": "English"
+    },
+    {"shortcode": "nl",
+     "name": "Dutch"
+    }
+  ],
   "text": {
     "en": [
       {"label": "Thanks!"},
@@ -17,6 +25,24 @@
       {"label": "Hang on, I need to mute."},
       {"label": "Tea break!"},
       {"label": "Toilet break!"}
+    ],
+    "nl": [
+      {"label": "Bedankt!"},
+      {"label": "Je staat op mute."},
+      {"label": "Iedereen praat door elkaar."},
+      {"label": "Ieder om beurt."},
+      {"label": "Ik zou graag iets zeggen."},
+      {"label": "Iemand anders zou graag iets zeggen."},
+      {"label": "Je bent al heel lang aan het praten."},
+      {"label": "Kan je dat nog eens zeggen?"},
+      {"label": "Kan je luider spreken?"},
+      {"label": "Kan je trager spreken?"},
+      {"label": "Je valt heel de tijd weg."},
+      {"label": "Wacht even, iemand aan de deur."},
+      {"label": "Wacht, ik moet even weg."},
+      {"label": "Wacht, ik moet me op mute zetten."},
+      {"label": "Koffiepauze!"},
+      {"label": "Toiletpauze!"}
     ]
   },
   "skinEmoji": {
