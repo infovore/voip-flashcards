@@ -23,7 +23,7 @@ button {
   margin: 0.5rem;
   font-size: 2rem;
   background: #f0f0f0;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 button:hover, button:active {

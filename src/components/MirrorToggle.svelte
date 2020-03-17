@@ -22,10 +22,10 @@ button {
   border: 1px solid #888;
   display: inline-block;
   margin: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
   background: #f0f0f0;
-  border-radius: 2px;
+  border-radius: 4px;
   float: right;
 }
 
