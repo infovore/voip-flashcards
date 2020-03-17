@@ -23,9 +23,12 @@ button {
   margin: 0.5rem;
   font-size: 2rem;
   background: #f0f0f0;
+  border-radius: 2px;
 }
 
-button:hover {
+button:hover, button:active {
   cursor: pointer;
+  background: #ddd;
+  box-shadow: inset 0 0 4px #888;
 }
 </style>
