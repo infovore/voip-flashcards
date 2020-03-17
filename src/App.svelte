@@ -16,7 +16,7 @@
   <div id="buttons">
     <MirrorToggle />
     <h1>VOIP Flashcards</h1>
-    <p>Designed for mobile. Tap to pick a message. Tap to clear. Hold up to your video conference.</p>
+    <p>Designed for mobile. Choose mirroring or not. Tap to pick a message. Tap to clear. Hold up to your video conference.</p>
     <p class='small'>Made by <a href="https://tomarmitage.com">Tom Armitage</a> (tom@infovore.org)</p>
     {#each messageData as message}
     <Button {...message} />
