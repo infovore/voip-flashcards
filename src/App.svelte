@@ -1,10 +1,15 @@
 <script>
   import appData from "../data/voipcards.json";
-  import { flashMessage} from "./stores.js";
-  import { config } from "./stores.js";
+  import { config, flashMessage } from "./stores.js";
+  import { onDestroy } from 'svelte';
+
   import Button from "./components/Button.svelte";
   import Flash from "./components/Flash.svelte";
   import Options from "./components/Options.svelte";
+
+  const configUnsub = config.subscribe(configJson => localStorage.setItem("voipcardsConfig", JSON.stringify(configJson)));
+
+  onDestroy(configUnsub);
 
 </script>
 
