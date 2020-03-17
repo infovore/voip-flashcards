@@ -1,6 +1,11 @@
 {
-  "name": "svelte-app",
-  "version": "1.0.0",
+  "name": "voip-flashcards",
+  "author": {
+    "name": "Tom Armitage",
+    "email": "tom@infovore.org",
+    "url": "https://tomarmitage.com"
+  },
+  "version": "0.1.0",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
