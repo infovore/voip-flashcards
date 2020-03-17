@@ -33,3 +33,7 @@ Build to `/public`
 
     npm run build
 
+## Credits
+
+Original code and English text by Tom Armitage
+Dutch translation by Dries De Roeck
