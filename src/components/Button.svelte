@@ -3,9 +3,11 @@
   import { flashMessage} from "../stores.js";
 
   export let label;
+  export let isEmoji = false;
 
   function handleClick() {
-    flashMessage.update(m => label);
+    let newMessage = {label, isEmoji};
+    flashMessage.update(m => newMessage);
   }
 </script>
 

@@ -3,14 +3,15 @@
   import { flashMessage} from "../stores.js";
 
   function clearFlash() {
-    flashMessage.update(m => null);
+    let newMessage = {};
+    flashMessage.update(m => newMessage);
   }
 </script>
 
 <div class="outer" on:click={clearFlash}>
   {#if $flashMessage}
-  <div class="inner">
-  {$flashMessage}
+  <div class="inner {$flashMessage.isEmoji ? "isemoji" : ""}">
+  {$flashMessage.label}
   </div>
   {/if}
 </div>
@@ -31,5 +32,9 @@
 }
 .inner {
   flex: 1 1;
+}
+
+.isemoji {
+  font-size: 200%;
 }
 </style>
