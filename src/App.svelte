@@ -7,7 +7,6 @@
   import Options from "./components/Options.svelte";
 
   const selectedLang = "en";
-  const selectedSkin = "0";
 </script>
 
 <main>
@@ -22,7 +21,10 @@
     {#each messageData.text[selectedLang] as message}
     <Button {...message} />
     {/each}
-    {#each messageData.emoji[selectedSkin] as message}
+    {#each messageData.skinEmoji[$config.skinTone] as message}
+    <Button {...message} isEmoji={true} />
+    {/each}
+    {#each messageData.emoji as message}
     <Button {...message} isEmoji={true} />
     {/each}
   </div>

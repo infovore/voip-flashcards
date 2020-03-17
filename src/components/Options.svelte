@@ -1,8 +1,21 @@
 
 <script>
+  let optionsVisible = false;
+  let tones = ["👋", "👋🏻", "👋🏼", "👋🏽", "👋🏾", "👋🏿"];
   import { config } from "../stores.js";
 
-  function handleClick() {
+  function handleToggle() {
+    optionsVisible = !optionsVisible;
+  }
+
+  function handleTone(i) {
+    // console.log(event);
+    let newConfig = Object.assign({}, $config);
+    newConfig.skinTone = i.toString();
+    config.update(m => newConfig);
+  }
+
+  function toggleMirror() {
     let newMirror = !$config.mirror;
     let newConfig = Object.assign({}, $config);
     newConfig.mirror = newMirror;
@@ -10,29 +23,70 @@
   }
 </script>
 
-<button on:click={handleClick}>
-{#if $config.mirror}
-Text will be mirrored!
-{:else}
-Text will not be mirrored
-{/if}
+<button class='options {optionsVisible ? "selected" : ""}' on:click={handleToggle}>
+Options
 </button>
 
+{#if optionsVisible}
+<div class='optionspanel'>
+  <h2>Configuration Options</h2>
+  <h3>Mirror Text?</h3>
+  <button on:click={toggleMirror}>
+    {#if $config.mirror}
+    Text will be mirrored
+    {:else}
+    Text will not be mirrored
+    {/if}
+  </button>
+
+  <h3>Skin tone</h3>
+  {#each tones as tone, i}
+  <button class="{(i.toString() == $config.skinTone) ? "selected": ""}" on:click={event => handleTone(i)}>{tone}</button>
+  {/each}
+
+  <h3>Language</h3>
+</div>
+{/if}
+
 <style>
+h2 {
+  line-height: 1;
+  margin: 0 0 1rem;
+}
 button {
   padding: 1rem;
   border: 1px solid #888;
-  margin: 0.5rem;
+  margin: 0;
   font-size: 1rem;
   font-weight: bold;
   background: #f0f0f0;
   border-radius: 4px;
+  display: inline-block;
+}
+
+button.options {
   float: right;
+  display: block;
+  margin: 0.5rem;
 }
 
 button:hover, button:active {
   cursor: pointer;
+}
+
+button:hover, button:active, button.selected {
+  cursor: pointer;
   background: #ddd;
   box-shadow: inset 0 0 4px #888;
+}
+.optionspanel {
+  position: absolute;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: #eee;
+  margin: 4rem 0 0 4rem;
+  padding: 2rem;
+  width: 50%;
+  box-shadow: 4px 4px 4px #888;
 }
 </style>
