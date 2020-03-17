@@ -43,5 +43,6 @@ footer {
   font-size: 0.85rem;
   border-top: 1px solid #ccc;
   padding-top: 0.5rem;
+  padding-bottom: 1rem;
 }
 </style>
