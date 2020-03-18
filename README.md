@@ -37,4 +37,4 @@ Build to `/public`
 
 Original code and English text by Tom Armitage  
 Dutch translation by Dries De Roeck  
-German translation by Kai Brueckers  
+German translation by Kai Brueckers and Marc David Vardai  
