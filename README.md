@@ -40,3 +40,4 @@ Dutch translation by Dries De Roeck
 German translation by Kai Brueckers and Marc David Vardai  
 Hungarian translation by Marc David Vardai  
 Spanish translation by Raúl Barroso  
+French translation by Fabrice Kabongo  
