@@ -1,9 +1,12 @@
 
 <script>
+  import stringHash from "string-hash";
   import { flashMessage} from "../stores.js";
 
   export let label;
   export let isEmoji = false;
+
+  let hash = stringHash(label);
 
   function handleClick() {
     let newMessage = {label, isEmoji};
@@ -11,7 +14,7 @@
   }
 </script>
 
-<button on:click={handleClick}>
+<button id="{hash}" on:click={handleClick}>
 {label}
 </button>
 

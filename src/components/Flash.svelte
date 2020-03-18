@@ -1,10 +1,16 @@
 
 <script>
+  import stringHash from "string-hash";
   import { flashMessage, config } from "../stores.js";
 
   function clearFlash() {
     let newMessage = {};
+    let hash = stringHash($flashMessage.label);
     flashMessage.update(m => newMessage);
+    window.setTimeout(() => {
+      const el = document.getElementById(hash);
+      el.scrollIntoView({block: "center"});
+    },50)
   }
 </script>
 
@@ -40,6 +46,7 @@
 }
 .inner {
   flex: 1 1;
+  padding: 0 1rem;
 }
 
 .isemoji {
