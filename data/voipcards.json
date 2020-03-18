@@ -8,6 +8,9 @@
     },
     {"shortcode": "de",
      "name": "German"
+    },
+    {"shortcode": "hu",
+     "name": "Hungarian"
     }
   ],
   "text": {
@@ -64,6 +67,24 @@
       {"label": "Einen Moment, ich bin lautlos."},
       {"label": "Kaffeepause!"},
       {"label": "Toilettenpause!"}
+    ],
+    "hu": [
+      {"label": "Köszönöm!"},
+      {"label": "Néma vagy."},
+      {"label": "Mindenki egyszerre beszél."},
+      {"label": "Egyenként."},
+      {"label": "Szeretnék beszélni."},
+      {"label": "Valaki más akar beszélni."},
+      {"label": "Már régóta beszélsz."},
+      {"label": "Megismételnéd?"},
+      {"label": "Tudnál hangosabban beszélni?"},
+      {"label": "Tudnál lassabban beszélni?"},
+      {"label": "Szakadozol."},
+      {"label": "Pillanat, valaki az ajtónál van."},
+      {"label": "Pillanat, mennem kell."},
+      {"label": "Pillanat, néma leszek."},
+      {"label": "Kávészünet!"},
+      {"label": "WC szünet!"}
     ]
   },
   "skinEmoji": {
