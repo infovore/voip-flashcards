@@ -11,6 +11,9 @@
     },
     {"shortcode": "hu",
      "name": "Hungarian"
+    },
+    {"shortcode": "fr",
+     "name": "French"
     }
   ],
   "text": {
@@ -85,7 +88,25 @@
       {"label": "Pillanat, néma leszek."},
       {"label": "Kávészünet!"},
       {"label": "WC szünet!"}
-    ]
+    ],
+    "fr": [
+      {"label": "Merci!"},
+      {"label": "Votre micro est désactivé."},
+      {"label": "Tout le monde parle en même temps."},
+      {"label": "Une personne à la fois."},
+      {"label": "J'aimerais parler."},
+      {"label": "Quelqu'un d'autre voudrais parler."},
+      {"label": "Vous avez parlé trop longtemps."},
+      {"label": "Pouvez-vous répéter cela?"},
+      {"label": "Pouvez-vous parler plus fort?"},
+      {"label": "Pouvez-vous parler plus lentement?"},
+      {"label": "Votre voix s'interrompt beaucoup"}
+      {"label": "Attendez une seconde, il y a quelqu'un à la porte."},
+      {"label": "Attendez une seconde, je reviens tout de suite."},
+      {"label": "Attendez une seconde, , je dois couper le micro."},
+      {"label": "Pause café!"},
+      {"label": "Pause toilettes!"}
+    ],
   },
   "skinEmoji": {
     "0": [
