@@ -39,3 +39,4 @@ Original code and English text by Tom Armitage
 Dutch translation by Dries De Roeck  
 German translation by Kai Brueckers and Marc David Vardai  
 Hungarian translation by Marc David Vardai  
+Spanish translation by Raúl Barroso  
