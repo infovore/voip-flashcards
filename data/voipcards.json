@@ -5,6 +5,9 @@
     },
     {"shortcode": "nl",
      "name": "Dutch"
+    },
+    {"shortcode": "de",
+     "name": "German"
     }
   ],
   "text": {
@@ -43,6 +46,24 @@
       {"label": "Wacht, ik moet me op mute zetten."},
       {"label": "Koffiepauze!"},
       {"label": "Toiletpauze!"}
+    ],
+    "de": [
+      {"label": "Danke!"},
+      {"label": "Du bist stumm geschaltet."},
+      {"label": "Alle reden."},
+      {"label": "Einer nach dem anderen."},
+      {"label": "Ich möchte etwas sagen."},
+      {"label": "Jemand anderes möchte etwas sagen."},
+      {"label": "Du redest schon sehr lange."},
+      {"label": "Kannst du das wiederholen?"},
+      {"label": "Kannst du lauter sprechen?"},
+      {"label": "Kannst du langsamer sprechen?"},
+      {"label": "Du bist häufig abgehackt."},
+      {"label": "Einen Moment, jemand ist an der Tür."},
+      {"label": "Einen Moment, ich muss kurz weg."},
+      {"label": "Einen Moment, ich muss mich stumm schalten."},
+      {"label": "Kaffeepause!"},
+      {"label": "Toilettenpause!"}
     ]
   },
   "skinEmoji": {
