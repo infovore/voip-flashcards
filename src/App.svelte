@@ -20,7 +20,7 @@
   <div id="buttons">
     <Options />
     <h1>VOIP Flashcards</h1>
-    <p>Designed for mobile. Tap to pick a message. Tap to clear. Hold up to your video conference. Choose mirroring, skin tone, and language, from the options picker.</p>
+    <p>Designed for mobile. Tap to pick a message. Tap to clear. Hold up to your video conference. Choose mirroring, colour scheme, skin tone, and language, from the options picker.</p>
     <p class='small'>Made by <a href="https://tomarmitage.com">Tom Armitage</a> (<a href="https://twitter.com/tom_armitage">@tom_armitage</a>). It's <a href="https://github.com/infovore/voip-flashcards">on Github</a>. (Like it? <a class='tipjar' href="https://monzo.me/thomasarmitage/3.00?d=Thanks%20for%20VOIPcards!">Buy me a coffee!</a>)</p>
     {#each appData.text[$config.language] as message}
     <Button {...message} />
