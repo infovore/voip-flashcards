@@ -1,16 +1,24 @@
 {
   "languages": [
-    {"shortcode": "en",
-     "name": "English"
+    {
+      "shortcode": "en",
+      "name": "English"
     },
-    {"shortcode": "nl",
-     "name": "Dutch"
+    {
+      "shortcode": "nl",
+      "name": "Dutch"
     },
-    {"shortcode": "de",
-     "name": "German"
+    {
+      "shortcode": "de",
+      "name": "German"
     },
-    {"shortcode": "hu",
-     "name": "Hungarian"
+    {
+      "shortcode": "hu",
+      "name": "Hungarian"
+    },
+    {
+      "shortcode": "es",
+      "name": "Spanish"
     }
   ],
   "text": {
@@ -85,6 +93,24 @@
       {"label": "Pillanat, néma leszek."},
       {"label": "Kávészünet!"},
       {"label": "WC szünet!"}
+    ],
+    "es": [
+      {"label": "¡Gracias!"},
+      {"label": "Estás en silencio."},
+      {"label": "Todo el mundo está hablando."},
+      {"label": "Una/o a la vez."},
+      {"label": "Me gustaría hablar."},
+      {"label": "A otra persona le gustaría hablar."},
+      {"label": "Has estado hablando bastante tiempo."},
+      {"label": "¿Podrías decir esto de nuevo?"},
+      {"label": "¿Podrías hablar más alto?"},
+      {"label": "¿Podrías hablar más despacio?"},
+      {"label": "No se está ententiendo."},
+      {"label": "Un momento, han tocado en la puerta."},
+      {"label": "Un momento, necesito salir."},
+      {"label": "Un momento, necesito ponerme en silencio."},
+      {"label": "¡Pausa para un café!"},
+      {"label": "¡Pausa para el ir al servicio!"}
     ]
   },
   "skinEmoji": {
