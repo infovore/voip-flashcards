@@ -31,6 +31,13 @@
     config.update(m => newConfig);
   }
 
+  function toggleInvert() {
+    let newInvert = !$config.invertColor;
+    let newConfig = Object.assign({}, $config);
+    newConfig.invertColor = newInvert;
+    config.update(m => newConfig);
+  }
+
   function handleClickOutside() {
     optionsVisible = false;
   }
@@ -52,6 +59,16 @@ Options
     Text will not be mirrored
     {/if}
   </button>
+
+  <h3>Colour scheme</h3>
+  <button on:click={toggleInvert}>
+    {#if $config.invertColor}
+    White text on black card
+    {:else}
+    Black text on white card
+    {/if}
+  </button>
+
 
   <h3>Skin tone</h3>
   {#each tones as tone, i}

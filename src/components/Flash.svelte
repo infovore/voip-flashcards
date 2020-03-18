@@ -8,7 +8,7 @@
   }
 </script>
 
-<div class="outer {$config.mirror ? 'mirror' : ''}" on:click={clearFlash}>
+<div class="outer {$config.invertColor ? "invert" : ""} {$config.mirror ? 'mirror' : ''}" on:click={clearFlash}>
   {#if $flashMessage}
   <div class="inner {$flashMessage.isEmoji ? "isemoji" : ""}">
   {$flashMessage.label}
@@ -24,6 +24,11 @@
   /* flex-direction: column; */
   align-items: center;
   height: 100%;
+}
+
+.invert {
+  color: white;
+  background: black;
 }
 
 .mirror {
