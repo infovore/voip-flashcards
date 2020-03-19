@@ -27,6 +27,8 @@
     "en": [
       {"label": "Thanks!"},
       {"label": "You're on mute."},
+      {"label": "I'm stuck on mute."},
+      {"label": "My mic's not working."},
       {"label": "Everyone is talking."},
       {"label": "One at a time."},
       {"label": "I'd like to speak."},
