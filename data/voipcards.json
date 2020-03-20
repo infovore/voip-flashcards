@@ -25,6 +25,10 @@
     {
       "shortcode": "ru",
       "name": "Russian"
+    },
+    {
+      "shortcode": "pt",
+      "name": "Portuguese"
     }
   ],
   "text": {
@@ -153,6 +157,24 @@
       {"label": "Секунду, выключу микрофон."},
       {"label": "Пора выпить чаю!"},
       {"label": "Пора отойти по нужде!"}
+    ],
+    "pt": [
+      { "label": "Obrigado" },
+      { "label": "Está sem som." } ,
+      { "label": "Estão todos a falar ao mesmo tempo." } ,
+      { "label": "Um de cada vez." } ,
+      { "label": "Quero falar." } ,
+      { "label": "Há mais pessoas que querem falar." } ,
+      { "label": "Já estás a falar há muito tempo." } ,
+      { "label": "Podes repetir?" } ,
+      { "label": "Podes falar mais alto?" } ,
+      { "label": "Podes falar mais devagar?" } ,
+      { "label": "O áudio está com muitas interrupções." } ,
+      { "label": "Espera, alguém está a tocar à campainha." } ,
+      { "label": "Espera, preciso de ir fazer uma coisa." } ,
+      { "label": "Espera, preciso de desligar o meu microfone por um momento." } ,
+      { "label": "Vamos fazer uma pausa." } ,
+      { "label": "Preciso de uma pausa." }
     ]
   },
   "skinEmoji": {
