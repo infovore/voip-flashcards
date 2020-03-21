@@ -29,6 +29,10 @@
     {
       "shortcode": "pt",
       "name": "Portuguese"
+    },
+    {
+      "shortcode": "it",
+      "name": "Italian"
     }
   ],
   "text": {
@@ -175,6 +179,24 @@
       { "label": "Espera, preciso de desligar o meu microfone por um momento." } ,
       { "label": "Vamos fazer uma pausa." } ,
       { "label": "Preciso de uma pausa." }
+    ],
+    "it": [
+      {"label": "Grazie!"},
+      {"label": "Hai il microfono disattivato."},
+      {"label": "State parlando tutti."},
+      {"label": "Uno alla volta."},
+      {"label": "Vorrei parlare."},
+      {"label": "Qualcun altro vorrebbe parlare."},
+      {"label": "Stai parlando da molto tempo."},
+      {"label": "Puoi ripetere?"},
+      {"label": "Puoi parlare più forte?"},
+      {"label": "Puoi parlare più lentamente?"},
+      {"label": "L'audio è molto disturbato."},
+      {"label": "Un attimo, c'è qualcuno alla porta."},
+      {"label": "Un attimo, devo allontanarmi."},
+      {"label": "Un attimo, devo disattivare il microfono."},
+      {"label": "Pausa caffé!"},
+      {"label": "Pausa servizi!"}
     ]
   },
   "skinEmoji": {
