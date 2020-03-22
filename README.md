@@ -43,3 +43,4 @@ Spanish translation by Raúl Barroso
 French translation by Fabrice Kabongo  
 Russian translation by Ilya Zverev
 Portuguese translation by Ana Neves
+Italian translation by Riccardo Cambiassi
