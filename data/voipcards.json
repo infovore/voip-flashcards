@@ -51,6 +51,7 @@
       {"label": "Hang on, someone at the door."},
       {"label": "Hang on, I need to step away."},
       {"label": "Hang on, I need to mute."},
+      {"label": "Lunch break!"},
       {"label": "Tea break!"},
       {"label": "Toilet break!"}
     ],
@@ -69,6 +70,7 @@
       {"label": "Wacht even, iemand aan de deur."},
       {"label": "Wacht, ik moet even weg."},
       {"label": "Wacht, ik moet me op mute zetten."},
+      {"label": "Lunchpauze!"},
       {"label": "Koffiepauze!"},
       {"label": "Toiletpauze!"}
     ],
@@ -87,6 +89,7 @@
       {"label": "Einen Moment, jemand ist an der Tür."},
       {"label": "Einen Moment, ich muss kurz weg."},
       {"label": "Einen Moment, ich bin lautlos."},
+      {"label": "Mittagspause!"},
       {"label": "Kaffeepause!"},
       {"label": "Toilettenpause!"}
     ],
@@ -105,6 +108,7 @@
       {"label": "Pillanat, valaki az ajtónál van."},
       {"label": "Pillanat, mennem kell."},
       {"label": "Pillanat, néma leszek."},
+      {"label": "Ebédszünet!"},
       {"label": "Kávészünet!"},
       {"label": "WC szünet!"}
     ],
@@ -123,6 +127,7 @@
       {"label": "Attendez une seconde, il y a quelqu'un à la porte."},
       {"label": "Attendez une seconde, je reviens tout de suite."},
       {"label": "Attendez une seconde, je dois couper le micro."},
+      {"label": "Heure du déjeuner!"},
       {"label": "Pause café!"},
       {"label": "Pause toilettes!"}
     ],
@@ -141,6 +146,7 @@
       {"label": "Un momento, han tocado en la puerta."},
       {"label": "Un momento, necesito salir."},
       {"label": "Un momento, necesito ponerme en silencio."},
+      {"label": "¡Pausa para almorzar!"},
       {"label": "¡Pausa para un café!"},
       {"label": "¡Pausa para el ir al servicio!"}
     ],
@@ -159,6 +165,7 @@
       {"label": "Минутку, кто-то за дверью."},
       {"label": "Минутку, нужно отойти."},
       {"label": "Секунду, выключу микрофон."},
+      {"label": "Перерыв на обед!"},
       {"label": "Пора выпить чаю!"},
       {"label": "Пора отойти по нужде!"}
     ],
@@ -177,6 +184,7 @@
       { "label": "Espera, alguém está a tocar à campainha." } ,
       { "label": "Espera, preciso de ir fazer uma coisa." } ,
       { "label": "Espera, preciso de desligar o meu microfone por um momento." } ,
+      { "label": "Pausa para o almoço!"},
       { "label": "Vamos fazer uma pausa." } ,
       { "label": "Preciso de uma pausa." }
     ],
@@ -246,6 +254,7 @@
   "emoji": [
     {"label": "💯"},
     {"label": "❤️"},
+    {"label": "🥪"},
     {"label": "☕️"},
     {"label": "🚽"}
   ]
