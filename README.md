@@ -43,9 +43,9 @@ German translation by Kai Brueckers and Marc David Vardai
 Hungarian translation by Marc David Vardai  
 Spanish translation by Raúl Barroso  
 French translation by Fabrice Kabongo  
-Russian translation by Ilya Zverev
-Portuguese translation by Ana Neves
-Italian translation by Riccardo Cambiassi
+Russian translation by Ilya Zverev  
+Portuguese translation by Ana Neves  
+Italian translation by Riccardo Cambiassi  
 Swedish translation by Oscar Schafer
 
 
