@@ -33,6 +33,10 @@
     {
       "shortcode": "it",
       "name": "Italian"
+    },
+    {
+      "shortcode": "se",
+      "name": "Swedish"
     }
   ],
   "text": {
@@ -205,6 +209,25 @@
       {"label": "Un attimo, devo disattivare il microfono."},
       {"label": "Pausa caffé!"},
       {"label": "Pausa servizi!"}
+    ],
+    "se": [
+      {"label": "Tack!"},
+      {"label": "Din mikrofon är avstängd."},
+      {"label": "Nu pratar alla samtidigt."},
+      {"label": "En åt gången."},
+      {"label": "Jag vill ha ordet."},
+      {"label": "Någon annan vill ha ordet."},
+      {"label": "Du har pratat länge."},
+      {"label": "Kan du säga det igen snälla?"},
+      {"label": "Kan du prata lite högre snälla?"},
+      {"label": "Kan du sakta ner lite snälla?"},
+      {"label": "Du hörs inte så bra, det hackar."},
+      {"label": "Vänta lite, det ringer på dörren."},
+      {"label": "Vänta lite, är strax tillbaka."},
+      {"label": "Vänta lite, stänger av min mikrofon."},
+      {"label": "Lunchdags!"},
+      {"label": "Fikapaus!"},
+      {"label": "Toapaus!"}
     ]
   },
   "skinEmoji": {

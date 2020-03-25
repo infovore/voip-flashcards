@@ -46,6 +46,7 @@ French translation by Fabrice Kabongo
 Russian translation by Ilya Zverev
 Portuguese translation by Ana Neves
 Italian translation by Riccardo Cambiassi
+Swedish translation by Oscar Schafer
 
 
 [blogpost]: https://tomarmitage.com/2020/03/25/voipcards-or-on-solutionising/
