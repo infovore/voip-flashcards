@@ -2,6 +2,8 @@
 
 Because sometimes people can't hear you. Hat tip to Alice Taylor for the original idea.
 
+I'm not sure this is as good as you think. [I wrote more about why.][blogpost]
+
 ## Suggesting content
 
 Add it to `data/voipcard.json`: you can see how internationalisation works. Emoji with skin-tone variables should be in `skinEmoji`; generic emoji that are the same in all territories can be children of `emoji`.
@@ -44,3 +46,6 @@ French translation by Fabrice Kabongo
 Russian translation by Ilya Zverev
 Portuguese translation by Ana Neves
 Italian translation by Riccardo Cambiassi
+
+
+[blogpost]: https://tomarmitage.com/2020/03/25/voipcards-or-on-solutionising/
