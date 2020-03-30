@@ -1,6 +1,8 @@
 
 <script>
+  import router from "page";
   import stringHash from "string-hash";
+
   import { flashMessage} from "../stores.js";
 
   export let label;
@@ -11,6 +13,7 @@
   function handleClick() {
     let newMessage = {label, isEmoji};
     flashMessage.update(m => newMessage);
+    router("/card");
   }
 </script>
 

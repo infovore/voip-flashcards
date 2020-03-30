@@ -9,7 +9,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public"
+    "start": "sirv public --single"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.0",
@@ -22,6 +22,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "page": "^1.11.5",
     "sirv-cli": "^0.4.4",
     "string-hash": "^1.1.3"
   }

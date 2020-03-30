@@ -1,5 +1,5 @@
-
 <script>
+  import router from 'page';
   import stringHash from "string-hash";
   import { flashMessage, config } from "../stores.js";
 
@@ -7,6 +7,7 @@
     let newMessage = {};
     let hash = stringHash($flashMessage.label);
     flashMessage.update(m => newMessage);
+    router("/");
     window.setTimeout(() => {
       const el = document.getElementById(hash);
       el.scrollIntoView({block: "center"});
@@ -30,6 +31,7 @@
   /* flex-direction: column; */
   align-items: center;
   height: 100%;
+  cursor: pointer;
 }
 
 .invert {
