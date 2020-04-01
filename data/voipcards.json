@@ -55,6 +55,7 @@
       {"label": "Hang on, someone at the door."},
       {"label": "Hang on, I need to step away."},
       {"label": "Hang on, I need to mute."},
+      {"label": "I'm here, please say hi."},
       {"label": "Lunch break!"},
       {"label": "Tea break!"},
       {"label": "Toilet break!"}
